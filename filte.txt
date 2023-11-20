@@ -1,0 +1,13 @@
+To be run backend
+(base) ➜ cd Backend/ npm install
+
+to be run backend 
+(base) ➜ cd Backend/  npm run devStart
+
+
+to be install node modules for frontend 
+(base) ➜ cd cart-application/ npm install --template typescript .
+
+
+to be run project 
+(base) ➜  Artur git:(master) ✗ cd cart-application/ npm start
