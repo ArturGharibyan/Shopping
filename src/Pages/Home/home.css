@@ -1,0 +1,125 @@
+.Home {
+  width: 50%;
+  flex-wrap: wrap;
+  display: inline-flex;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.HomeApp {
+  width: 100%;
+
+}
+
+.SealProductnavigates {
+  width: 100%;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  /* height: 450px; */
+
+}
+
+
+
+.homechild {
+  width: calc(30% - 15px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  float: right;
+  padding-top: 40px;
+  text-align: center;
+  margin: 10px;
+
+}
+
+aside>div {
+  margin: 0 0 26px;
+}
+
+
+.categoryChilds::-webkit-scrollbar {
+  width: 5px;
+  visibility: hidden;
+
+}
+
+.categoryChilds::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+  border-radius: 10px;
+}
+
+.categoryChilds::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 16px rgba(129, 90, 213, 0);
+
+}
+
+@media screen and (max-width:1200px) {
+  .categoryChilds {
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-bottom: 20px;
+    overflow-y: auto;
+    white-space: nowrap;
+    flex-wrap: wrap;
+
+
+  }
+
+  .Home {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .homechild {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0;
+
+  }
+
+  .SealProductnavigates {
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:770px) {
+  .homechild>div {
+    width: 90%;
+  }
+}

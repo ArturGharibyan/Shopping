@@ -1,0 +1,52 @@
+.Success{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Success_parent_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Success_text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Success_text span{
+    margin: 11px;
+}
+
+.Payment_successful{
+    color: #54C147;
+    font-size: 38px;
+}
+
+.YourOrder_is_in_our_system{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e4d023;
+
+}
+
+.Success_image_div img{
+    width: 400px;
+    height: 400px;
+
+}
+
+.Back_to_Home_page{
+    text-decoration: none;
+    font-size: 18px;
+    color: #54C147;
+}
+
+.Back_to_Home_page:hover{
+color: #136d09;
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+
+
+.filteredItems{
+    width: 1100px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+.householditem{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+.householdModel{
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;;
+  position: relative;
+  top: 8px;
+}
+
+.householditem>img {
+width: 350px;
+height: 280px;
+object-fit: contain;
+}
+
+.householditemLinkdiv{
+    
+    width: 400px;
+    text-align: center;
+
+}
+
+.householdprice{
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 500;
+    line-height: 22px;
+    position: relative;
+    top: 10px;
+    font-weight: bolder;
+
+}
+
+
+
+
+.householdlink{
+text-decoration: none;
+color: black;
+font-family:  'Poppins', sans-serif;
+font-size: 19px;
+font-weight: bolder;
+}
+
+
+
+.Ratingstars{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.progres{
+    position: absolute;
+    left: 280px;
+    right: 0;
+    margin: auto;
+}
+
+.Noresults{
+    position: relative;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 25px;
+    top: 150px;
+}
+
+.pagerdiv{
+    width:100%;
+    z-index: 100;
+    position:fixed;
+    background:white;
+    box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+
+}
+
+.sidebarcanvas{
+    display: none;
+}
+
+
+
+@media screen and (max-width:1335px) {
+    
+    .sidebarcanvas{
+        display: block;
+    }
+
+    .progres{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width:1335px){
+    .filteredItems{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:431px){
+    .householditem{
+        width: 350px;
+        height: 600px;
+       
+    
+    }
+}

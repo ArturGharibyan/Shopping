@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+
+
+.recommended{
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    float: right;
+}
+
+
+
+
+.recommended-flex {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .recommended-flex::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.recommended-flex::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+.recommended-flex::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 16px rgba(129, 90, 213, 0);
+
+}
+
+  .recommended-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 12px;
+  }
+
+  
+  .recomendedButtons{
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    transition: 1s;
+    margin: 10px;
+  }
+  
+  .recomendedButtons:hover {
+    background-color: rgb(233, 232, 232);
+    transition: 1s;
+  }
+
+

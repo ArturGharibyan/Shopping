@@ -1,0 +1,40 @@
+.Categoryitems{
+    display: none;
+}
+
+
+
+.Categoryitems{
+    width: 90px;
+    height: 50px;
+    
+    
+}
+
+.Categoryitems > div{
+    height: 50px;
+    display: flex;
+    margin: 15px;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .Categoryitems{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+    .link>p{
+        margin: 0;
+    }
+}

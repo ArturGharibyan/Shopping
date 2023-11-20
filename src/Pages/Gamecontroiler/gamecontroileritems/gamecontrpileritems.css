@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+
+.gamelink{
+text-decoration: none;
+font-size: 19px;
+color: black;
+font-family: 'Poppins', sans-serif;
+
+} 
+
+.gameitemImagesChildren{
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    cursor:pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameimgs{
+    position: absolute;
+    opacity: 0.0;
+    width: 10px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+
+    
+}
+
+.gameitemImagesChildren:hover{
+    border:2px solid gray;
+}
+
+
+
+
+
+ 
+ 
+ 

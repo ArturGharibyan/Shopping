@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+.Bigsalescontainer {
+    position: relative;
+    width: 650px;
+    height: 330px;
+    border-radius: 25px;
+    background:
+    linear-gradient(to bottom right, rgba(255, 213, 159, 0.397) 8%, rgba(219, 233, 249) 100%);
+    box-shadow: 5px 5px 8px #c5c7c9;
+
+}
+
+.Bigsalescontainer_items {
+    position: relative;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+}
+
+.heading_paragraph {
+    font-size: 58px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    margin: 0;
+
+
+}
+
+.Bigsalescontainer_items_child {
+    position: relative;
+    width: 200px;
+    left: 80px;
+    margin: 0;
+    top: 50px;
+    
+}
+
+.Bigsalescontainer_paragraph {
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(140, 157, 176);
+}
+
+.headphonesNavigator {
+    position: absolute;
+    display: flex;
+    width: 180px;
+    height: 48px;
+    background-color: #FF5E00;
+    border-radius: 35px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+
+}
+
+.linkheadPhones {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+.Bigsalescontainer_img_container {
+    right: 200px;
+    top: -48px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.Bigsalescontainer_img_container img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:1200px) {
+    .Bigsalescontainer{
+      width: 90%;
+    }
+      }
+
+
+      @media screen and (max-width:450px) {
+        .Bigsalescontainer_img_container  {
+            left: 0;
+            right: 0;
+        }
+
+        .Bigsalescontainer_img_container img {
+            width: 380px;
+            height: 380px;
+            object-fit: contain;
+        }
+        
+      }

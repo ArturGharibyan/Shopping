@@ -1,0 +1,12 @@
+body{
+    background-color: #ffffff;
+}
+
+.myclass{
+border: 10px solid lightblue;
+}
+
+body{
+    overflow-x: hidden;
+}
+

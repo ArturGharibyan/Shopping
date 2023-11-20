@@ -1,0 +1,17 @@
+.dropdowns{
+    padding: 0;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 150px; */
+
+}
+
+.slide{
+    padding-left: 0;
+}
+
+.dropdowns>label{
+margin-left: 20px;
+margin-top: 10px;
+}

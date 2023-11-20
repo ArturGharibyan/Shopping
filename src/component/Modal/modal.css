@@ -1,0 +1,70 @@
+
+
+.Modal {
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+       
+
+}
+
+
+
+.ModalDiv {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(220, 221, 223);
+}
+
+.ModalChild>div {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.ModalButtons>button {
+    margin: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #03373d;
+}
+
+.ModalH4 {
+    color: #008594;
+}
+
+.ModalChild {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50%);
+    background: white;
+    padding: 50px;
+}

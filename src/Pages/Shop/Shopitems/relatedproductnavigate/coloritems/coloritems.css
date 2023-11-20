@@ -1,0 +1,13 @@
+.shopImageLists {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+    padding: 2px;
+}
+
+
+.active .shopImageLists  {
+    border: 1.5px solid  rgb(204, 203, 203);
+    border-radius: 5px;
+}

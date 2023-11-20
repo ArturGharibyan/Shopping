@@ -1,0 +1,66 @@
+.signin {
+    width: 100%;
+    height: 665px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+  }
+  
+  .inputs>input {
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #F5F5F5;
+    background-color: white;
+  
+  }
+  
+  .signinchild {
+    display: flex;
+    width: 480px;
+    height: 560px;
+    border: 2px solid #F5F5F5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background:
+    linear-gradient(to bottom right, rgba(255, 213, 159, 0.397) 8%, rgba(219, 233, 249) 100%);
+    box-shadow: 5px 5px 8px #c5c7c9;
+    color: black;
+  }
+  
+  .form-labels {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 12px;
+  }
+  
+  .button>button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(226, 226, 241);
+    background-color: rgba(2, 22, 48, 0.377);
+    margin-top: 30px;
+  }
+  
+  
+  
+  
+  
+ 
+  

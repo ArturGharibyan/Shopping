@@ -1,0 +1,17 @@
+.navbar-brand >img{
+    width: 20px;
+    height:35px;
+    object-fit: contain;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #c4c2c2;
+    border-radius: 25px;
+}
+

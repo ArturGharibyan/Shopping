@@ -1,0 +1,10 @@
+.SignInSinguplink{
+    cursor: pointer;
+    color: rgb(15, 59, 155);
+    font-weight: bolder;
+}
+
+body{
+    overflow-x: hidden;
+}
+

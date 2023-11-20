@@ -1,0 +1,79 @@
+.headphone{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.headphoneitem{
+    width: 400px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px 1px rgb(207, 207, 207);
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+
+.headphoneModel{
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;;
+  position: relative;
+  top: 8px;
+}
+.headphoneitem>img {
+width: 350px;
+height: 280px;
+object-fit: contain;
+}
+
+.headphoneitemLinkdiv{
+    
+    width: 400px;
+    text-align: center;
+
+}
+
+.headphoneprice{
+    font-family: 'Poppins', sans-serif;;
+    line-height: 22px;
+    position: relative;
+    top: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+
+}
+
+
+
+
+
+.headphonelink{
+text-decoration: none;
+color: black;
+font-family:  'Poppins', sans-serif;
+font-size: 19px;
+font-weight: bolder;
+margin: 0;
+}
+
+
+.Ratingstars{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width:431px){
+    .headphoneitem{
+        width: 350px;
+        height: 600px;
+       
+    
+    }
+}

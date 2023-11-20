@@ -1,0 +1,24 @@
+.cartstatecol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartstatecolumns{
+    width: 60px;
+}
+
+.card{
+
+    box-shadow: 5px 5px 8px #a3a4a5
+}
+
+.liked{
+    box-shadow: 5px 5px 8px #a3a4a5
+}
+
+.Profil{
+    box-shadow: 5px 5px 8px#a3a4a5
+
+}

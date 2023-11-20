@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+
+
+
+
+.navbar a {
+    text-decoration: none;
+
+}
+
+.navbar li {
+    list-style: none;
+
+}
+
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: nowrap;
+    z-index: 100;
+}
+
+
+.nav-links a {
+    color: #131313;
+}
+
+.nav-links{
+    margin: 0;
+}
+
+
+
+.logo {
+    width: 760px;
+    display: inline-flex;
+    font-size: 22px;
+    justify-content: space-around;
+
+}
+
+
+.CardState {
+    display: flex;
+    width: 250px;
+    height: 60px;
+    justify-content: flex-end;
+
+
+}
+
+.CardState div {
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #F5F5F5FF;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.card img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+.liked {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F5F5F5FF;
+    border-radius: 100%;
+    cursor: pointer;
+
+
+}
+
+.rounded-circle {
+    color: rgb(180, 216, 255);
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(25%, 25%);
+}
+
+.liked img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+
+}
+
+.Profil{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F5F5F5FF;
+    border-radius: 100%;
+    cursor: pointer;
+
+    
+}
+
+.Profilname {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #F5F5F5FF;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #7a7a7a;
+    
+
+}
+
+
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu>li>a:hover {
+    color: rgb(240, 25, 247);
+}
+
+
+.menu li {
+    padding: 5px 20px;
+
+}
+
+
+
+.services {
+    position: relative;
+
+}
+
+
+
+input[type=checkbox] {
+    display: none;
+}
+
+.span {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    position: relative;
+    top: 10px;
+}
+
+
+.svg {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1051px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #F5F5F5;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        top: 80px;
+        height: 220px;
+
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: #4c9e9e;
+        transition: 1s;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .span {
+        display: block;
+        margin-right: 40px;
+        padding: 0;
+    }
+
+
+
+
+
+
+    .logo>h1 {
+        position: absolute;
+        left: 100px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #F5F5F5;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        top: 80px;
+        height: 220px;
+
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: #4c9e9e;
+        transition: 1s;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+   
+
+
+    
+
+   
+ 
+    .logo>h1 {
+        position: absolute;
+        left: 100px;
+    }
+
+
+}
+
+.dropps{
+    display: none;
+    }
+
+@media (max-width: 910px){
+    .CardState{
+        display: none;
+    }
+    .dropps{
+        display: block;
+        width: 50px;
+        height: 50px;
+        
+        }
+        .divsvg{
+            width: 40px;
+            height: 40px;
+        }
+        .svg{
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+        }
+        .nav-links {
+      padding-left: 20px;
+    }
+        
+}
+
+.cartstatecolumns>div{
+margin-top: 20px;
+}
+
+
+
+@media (max-width: 338px) {
+    .svg {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: flex-start;
+        align-items: left;
+    }
+
+    .logo>h1 {
+        display: inline-flex;
+        font-size: 22px;
+        width: 260px;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .logo>h1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .svg {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo>h1 {
+        display: inline-flex;
+        font-size: 15px;
+        width: 120px;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .logo>h1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+}

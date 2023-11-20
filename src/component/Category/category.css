@@ -1,0 +1,36 @@
+.Categories {
+    width: calc( 18% - 13px); 
+    height: 442px;
+    box-sizing: border-box; 
+    float: left; 
+    padding: 15px;
+    margin: 10px;
+    }
+    
+    .Categories div {
+        width: 150px;
+    
+    }
+    
+    
+    .Categories h1{
+     font-size: 30px;
+     font-family: sans-serif;
+    }
+    
+    .link {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+
+    
+
+    
+    @media screen and (max-width:1200px) {
+  .Categories{
+    display: none;
+  }
+    }
